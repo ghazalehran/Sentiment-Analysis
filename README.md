@@ -43,3 +43,36 @@ The `word2vec` function generates word embeddings using the **Word2Vec** algorit
 - Bag of Words (BoW) and TF-IDF are basic techniques used for transforming text into numerical features based on word frequency.
 - LSA helps reduce the dimensionality of features by capturing latent structures in the text data.
 - Word2Vec generates word embeddings, capturing semantic relationships between words.
+
+## Step 3:Classifiers for Sentiment Analysis
+
+We use three advanced machine learning models used for text classification into sentiment categories (e.g., negative, neutral, positive). These models include:
+
+- **Naïve Bayes**
+- **Support Vector Machine (SVM)**
+- **Neural Network (MLP)**
+
+
+### 1. **naive_bayes_classifier(X_train, y_train, X_test)**
+   - Trains a Naïve Bayes classifier on the provided data and returns predictions.
+   - **Parameters**: 
+     - `X_train` (array-like): Training features.
+     - `y_train` (array-like): Training labels.
+     - `X_test` (array-like): Test features.
+   - **Returns**: Predicted labels for the test data.
+
+### 2. **svm_classifier(X_train, y_train, X_test)**
+   - Trains a Kernelized SVM classifier on the provided data and returns predictions.
+   - **Parameters**: 
+     - `X_train` (array-like): Training features.
+     - `y_train` (array-like): Training labels.
+     - `X_test` (array-like): Test features.
+   - **Returns**: Predicted labels for the test data.
+
+### 3. **train_neural_network(X_train, y_train, X_test, ...)**
+   - Trains a Neural Network (MLP) classifier on the provided data and returns predictions.
+   - **Parameters**: 
+     - `X_train` (array-like): Training features.
+     - `y_train` (array-like): Training labels.
+     - `X_test
+
